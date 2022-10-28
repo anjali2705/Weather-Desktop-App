@@ -19,7 +19,7 @@ public class PrimaryController {
     @FXML
     private Text weatherText;
 
-    private final String cityAPI = "http://api.openweathermap.org/data/2.5/weather?appid=730699c5933b5c9448d0112c148d1fae&units=metric&q=";
+    private final String cityAPI = "http://api.openweathermap.org/data/2.5/weather?appid={apikey}&units=metric&q=";
 
 
     @FXML
